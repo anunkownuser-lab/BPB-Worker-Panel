@@ -1,9 +1,12 @@
 {
   "name": "bpb-worker",
+  "main": "./src/worker.ts",
   "compatibility_date": "2025-11-25",
-  "main": "./src/index.ts",
   "site": {
     "bucket": "./panel",
-    "entry-point": "./src/index.ts"
+    "include": ["**/*"]
+  },
+  "env": {
+    "NODE_ENV": "production"
   }
 }
