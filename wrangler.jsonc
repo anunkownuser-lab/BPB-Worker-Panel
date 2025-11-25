@@ -1,7 +1,5 @@
 {
   "name": "bpb-worker",
-  "compatibility_date": "2025-11-25",
-  "assets": {
-    "directory": "./dist"
-  }
+  "main": "./src/index.ts",  
+  "compatibility_date": "2025-11-25"
 }
