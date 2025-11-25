@@ -13,6 +13,8 @@ globalThis.dict = {
     _website_: atob('aHR0cHM6Ly9iaWEtcGFpbi1iYWNoZS5naXRodWIuaW8vQlBCLVdvcmtlci1QYW5lbC8='),
     _public_proxy_ip_: atob('YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==')
 };
+ // Define version for deployment
+const __VERSION__ = "v4.0.1"; // یا هر نسخه‌ای که پروژه داره
 
 globalThis.settings = {
     localDNS: "8.8.8.8",
