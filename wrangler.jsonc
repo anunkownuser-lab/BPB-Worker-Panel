@@ -1,12 +1,5 @@
 {
   "name": "bpb-worker",
   "main": "./src/worker.ts",
-  "compatibility_date": "2025-11-25",
-  "site": {
-    "bucket": "./panel",
-    "include": ["**/*"]
-  },
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "compatibility_date": "2025-11-25"
 }
